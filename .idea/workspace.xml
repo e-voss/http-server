@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5b38077d-c6c4-4233-ac16-735c5c99c704" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ehv3/src/java/HTTPRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehv3/src/java/HTTPRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ehv3/src/java/HTTPRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ehv3/src/java/HTTPRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/happy_duck.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/multithread-http-server-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/multithread-http-server-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,14 +136,30 @@
       <option name="project" value="LOCAL" />
       <updated>1604530733883</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixed not finding resources problem">
+      <created>1604531241040</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604531241040</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixed not finding resources problem again">
+      <created>1604531328257</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604531328257</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Fixed cookie issue" />
     <MESSAGE value="Fixed cookie issue again" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed cookie issue again" />
+    <MESSAGE value="Fixed not finding resources problem" />
+    <MESSAGE value="Fixed not finding resources problem again" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed not finding resources problem again" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="72" key="#Project_Structure" timestamp="1604254163368">
@@ -164,10 +179,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="493" y="102" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1604257912039" />
-    <state x="2534" y="117" key="CommitChangelistDialog2" timestamp="1604531238484">
+    <state x="2534" y="117" key="CommitChangelistDialog2" timestamp="1604531325917">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2534" y="117" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604531238484" />
+    <state x="2534" y="117" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604531325917" />
     <state x="2660" y="262" key="FileChooserDialogImpl" timestamp="1604518658615">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -176,25 +191,25 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2714" y="437" width="356" height="166" key="Github.CreateGistDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604518113430" />
-    <state width="1877" height="168" key="GridCell.Tab.0.bottom" timestamp="1604531301518">
+    <state width="1877" height="168" key="GridCell.Tab.0.bottom" timestamp="1604531423465">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="168" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604531301518" />
+    <state width="1877" height="168" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604531423465" />
     <state width="1493" height="168" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604362303109" />
-    <state width="1877" height="168" key="GridCell.Tab.0.center" timestamp="1604531301518">
+    <state width="1877" height="168" key="GridCell.Tab.0.center" timestamp="1604531423464">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="168" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604531301518" />
+    <state width="1877" height="168" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604531423464" />
     <state width="1493" height="168" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604362303109" />
-    <state width="1877" height="168" key="GridCell.Tab.0.left" timestamp="1604531301517">
+    <state width="1877" height="168" key="GridCell.Tab.0.left" timestamp="1604531423464">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="168" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604531301517" />
+    <state width="1877" height="168" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604531423464" />
     <state width="1493" height="168" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604362303109" />
-    <state width="1877" height="168" key="GridCell.Tab.0.right" timestamp="1604531301518">
+    <state width="1877" height="168" key="GridCell.Tab.0.right" timestamp="1604531423464">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="168" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604531301518" />
+    <state width="1877" height="168" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604531423464" />
     <state width="1493" height="168" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604362303109" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1604362200794">
       <screen x="0" y="0" width="1536" height="824" />
@@ -216,11 +231,11 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2367" y="96" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604518574314" />
-    <state x="2371" y="184" key="Vcs.Push.Dialog.v2" timestamp="1604531244639">
+    <state x="2371" y="184" key="Vcs.Push.Dialog.v2" timestamp="1604531333898">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1604529958919" />
-    <state x="2371" y="184" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604531244639" />
+    <state x="2371" y="184" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604531333898" />
     <state x="584" y="191" key="chooseDestDirectoryDialog" timestamp="1604259856406">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
