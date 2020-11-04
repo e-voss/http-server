@@ -132,6 +132,7 @@ public class HTTPRequest implements Runnable {
             outputStream.write(("HTTP/1.1 200 OK" + CRLF).getBytes());
             outputStream.write(("ContentType: text/html" + CRLF).getBytes());
             outputStream.write(("Set-Cookie: numVisits=" + ++numVisits + CRLF + CRLF).getBytes());
+            System.out.println(this.getClass().getProtectionDomain().getCodeSource().getLocation());
             FileInputStream fis = new FileInputStream(params[fileNum]);
             sendBytes(fis);
             outputStream.flush();
