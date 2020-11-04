@@ -96,7 +96,7 @@ public class HTTPRequest implements Runnable {
                 String[] cookies = headerArray[1].split(" ");
                 for(String val : cookies) {
                     if(val.startsWith("numVisits")) {
-                        String[] numVisitsCookie = val.split("=");
+                        String[] numVisitsCookie = val.split("[=;]");
                         numVisits = Integer.parseInt(numVisitsCookie[1]);
                     }
                 }
