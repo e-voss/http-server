@@ -93,8 +93,14 @@ public class HTTPRequest implements Runnable {
             headerArray = s.split(" ");
             headerType = headerArray[0];
             if(headerType.contains("Cookie:")) {
-                String[] cookie = headerArray[1].split("=");
-                numVisits = Integer.parseInt(cookie[1]);
+                String[] cookies = headerArray[1].split(" ");
+                for(String val : cookies) {
+                    if(val.startsWith("numVisits")) {
+                        String[] numVisitsCookie = val.split("=");
+                        numVisits = Integer.parseInt(numVisitsCookie[1]);
+                    }
+                }
+
             }
         }
     }
